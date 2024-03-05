@@ -1,0 +1,71 @@
+2024-03-03 02:14:49,735 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CrudDemoApplication using Java 20.0.2 with PID 11236 (C:\Users\Navi\spring_boot_workspace\CrudDemo\target\classes started by Navi in C:\Users\Navi\spring_boot_workspace\CrudDemo)
+2024-03-03 02:14:49,735 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CrudDemoApplication using Java 20.0.2 with PID 11236 (C:\Users\Navi\spring_boot_workspace\CrudDemo\target\classes started by Navi in C:\Users\Navi\spring_boot_workspace\CrudDemo)
+2024-03-03 02:14:49,746 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.9, Spring v6.0.17
+2024-03-03 02:14:49,746 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.9, Spring v6.0.17
+2024-03-03 02:14:49,751 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "uat"
+2024-03-03 02:14:49,751 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "uat"
+2024-03-03 02:14:49,809 INFO o.s.b.l.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\Navi\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Navi/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2024-03-03 02:14:49,811 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-03 02:14:49,812 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-03 02:14:50,530 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 02:14:50,596 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-03-03 02:14:51,233 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2024-03-03 02:14:51,244 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9090"]
+2024-03-03 02:14:51,247 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-03-03 02:14:51,248 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 02:14:51,320 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-03-03 02:14:51,321 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1507 ms
+2024-03-03 02:14:51,374 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-03-03 02:14:51,592 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f3e8d34
+2024-03-03 02:14:51,594 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-03-03 02:14:51,605 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/testradical?useSSL=false'
+2024-03-03 02:14:51,748 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 02:14:51,826 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-03-03 02:14:51,834 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2024-03-03 02:14:52,140 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 02:14:52,220 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-03 02:14:52,221 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-03 02:14:53,098 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 02:14:53,154 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 02:14:53,549 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 02:14:53,949 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-03-03 02:14:53,967 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9090"]
+2024-03-03 02:14:53,986 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path '/cruddemo/services'
+2024-03-03 02:14:53,996 INFO o.s.b.StartupInfoLogger [restartedMain] Started CrudDemoApplication in 4.81 seconds (process running for 5.875)
+2024-03-03 02:14:53,996 INFO o.s.b.StartupInfoLogger [restartedMain] Started CrudDemoApplication in 4.81 seconds (process running for 5.875)
+2024-03-03 02:15:07,838 INFO o.a.j.l.DirectJDKLog [http-nio-9090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03 02:15:07,838 INFO o.s.w.s.FrameworkServlet [http-nio-9090-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-03-03 02:15:07,840 INFO o.s.w.s.FrameworkServlet [http-nio-9090-exec-2] Completed initialization in 2 ms
+2024-03-03 02:15:09,198 DEBUG c.o.r.C.s.EmployeeServiceImpl [http-nio-9090-exec-2] Response received from https://jsonplaceholder.typicode.com/posts/1Root(userId=1, id=3, title=ea molestias quasi exercitationem repellat qui ipsa sit aut, body=et iusto sed quo iure
+voluptatem occaecati omnis eligendi aut ad
+voluptatem doloribus vel accusantium quis pariatur
+molestiae porro eius odio et labore et velit aut)
+2024-03-03 02:15:09,198 DEBUG c.o.r.C.s.EmployeeServiceImpl [http-nio-9090-exec-2] Response received from https://jsonplaceholder.typicode.com/posts/1Root(userId=1, id=3, title=ea molestias quasi exercitationem repellat qui ipsa sit aut, body=et iusto sed quo iure
+voluptatem occaecati omnis eligendi aut ad
+voluptatem doloribus vel accusantium quis pariatur
+molestiae porro eius odio et labore et velit aut)
+2024-03-03 02:15:17,696 DEBUG c.o.r.C.s.EmployeeServiceImpl [http-nio-9090-exec-3] Response received from https://jsonplaceholder.typicode.com/posts/1Root(userId=1, id=2, title=qui est esse, body=est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla)
+2024-03-03 02:15:17,696 DEBUG c.o.r.C.s.EmployeeServiceImpl [http-nio-9090-exec-3] Response received from https://jsonplaceholder.typicode.com/posts/1Root(userId=1, id=2, title=qui est esse, body=est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla)
+2024-03-03 02:15:28,409 DEBUG c.o.r.C.s.EmployeeServiceImpl [http-nio-9090-exec-4] Response received from https://jsonplaceholder.typicode.com/posts/1Root(userId=1, id=5, title=nesciunt quas odio, body=repudiandae veniam quaerat sunt sed
+alias aut fugiat sit autem sed est
+voluptatem omnis possimus esse voluptatibus quis
+est aut tenetur dolor neque)
+2024-03-03 02:15:28,409 DEBUG c.o.r.C.s.EmployeeServiceImpl [http-nio-9090-exec-4] Response received from https://jsonplaceholder.typicode.com/posts/1Root(userId=1, id=5, title=nesciunt quas odio, body=repudiandae veniam quaerat sunt sed
+alias aut fugiat sit autem sed est
+voluptatem omnis possimus esse voluptatibus quis
+est aut tenetur dolor neque)
+2024-03-03 02:16:13,042 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(3)-127.0.0.1] Application shutdown requested.
+2024-03-03 02:16:13,061 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Pausing ProtocolHandler ["http-nio-9090"]
+2024-03-03 02:16:13,062 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Stopping service [Tomcat]
+2024-03-03 02:16:13,066 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-03 02:16:13,071 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Stopping ProtocolHandler ["http-nio-9090"]
+2024-03-03 02:16:13,074 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Destroying ProtocolHandler ["http-nio-9090"]
+2024-03-03 02:16:13,080 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(3)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 02:16:13,087 INFO c.z.h.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2024-03-03 02:16:13,100 INFO c.z.h.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown completed.
